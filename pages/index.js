@@ -226,7 +226,7 @@ const Home = () => {
           </ul>
               </p>
               <h5 editable="inline">
-                <strong>Lauch Service</strong>
+                <strong>Launch Service</strong>
               </h5>
               <small editable="inline" style={{ letterSpacing: 1 }}>
                 PED.&nbsp;
@@ -281,17 +281,17 @@ const Home = () => {
         <div className="col-lg-6">
           <img
             className="img-fluid"
-            src="assets/images/decor5.jpg"
+            src="assets/images/chairs2.jpg"
             alt="..."
           />
         </div>
         <div className="col-lg-6">
-          <div className="bg-dark text-center h-100 project">
+          <div className="bg-danger text-center h-100 project">
             <div className="d-flex h-100">
               <div className="project-text w-100 my-auto text-center text-lg-left">
                 <h4 className="text-white">TENT & CHAIRS</h4>
                 <p className="mb-0 text-white-50">
-                  We create the perfect atmosphere for your eventwith our extensive range of
+                  We create the perfect atmosphere for your event with our extensive range of
                   tents and chairs. Whether it's an intimate gathering or a grand celebration,
                    we have the right selection to meet your needs.
                 </p>
@@ -305,12 +305,12 @@ const Home = () => {
         <div className="col-lg-6">
           <img
             className="img-fluid"
-            src="assets/images/demo-image-02.jpg"
+            src="assets/images/light5.jpg"
             alt="..."
           />
         </div>
         <div className="col-lg-6 order-lg-first">
-          <div className="bg-dark text-center h-100 project">
+          <div className="bg-danger text-center h-100 project">
             <div className="d-flex h-100">
               <div className="project-text w-100 my-auto text-center text-lg-right">
                 <h4 className="text-white">LIGHTING SERVICES</h4>
@@ -329,12 +329,12 @@ const Home = () => {
         <div className="col-lg-6">
           <img
             className="img-fluid"
-            src="assets/images/demo-image-01.jpg"
+            src="assets/images/gallery-event.jpg"
             alt="..."
           />
         </div>
         <div className="col-lg-6">
-          <div className="bg-black text-center h-100 project">
+          <div className="bg-danger text-center h-100 project">
             <div className="d-flex h-100">
               <div className="project-text w-100 my-auto text-center text-lg-left">
                 <h4 className="text-white">AUDIO VISUAL SERVICES</h4>
@@ -353,12 +353,12 @@ const Home = () => {
         <div className="col-lg-6">
           <img
             className="img-fluid"
-            src="assets/images/demo-image-02.jpg"
+            src="assets/images/gallery-wed2.jpg"
             alt="..."
           />
         </div>
         <div className="col-lg-6 order-lg-first">
-          <div className="bg-black text-center h-100 project">
+          <div className="bg-danger text-center h-100 project">
             <div className="d-flex h-100">
               <div className="project-text w-100 my-auto text-center text-lg-right">
                 <h4 className="text-white">PHOTOGRAPH & VIDEOGRAPHY</h4>
