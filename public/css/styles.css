@@ -3826,6 +3826,14 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+  background-color: rgba(46, 139, 87, 0.6); /* Emerald satin green with transparency */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 90px;
+  
+}
+.navbar-logo {
+  height: 80px; /* Adjust the height of the logo as needed */
+  margin-right: 10px;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -3844,9 +3852,12 @@ textarea.form-control-lg {
   padding-bottom: var(--bs-navbar-brand-padding-y);
   margin-right: var(--bs-navbar-brand-margin-end);
   font-size: var(--bs-navbar-brand-font-size);
-  color: var(--bs-navbar-brand-color);
+  color: var(--bs-navbar-active-color);
   text-decoration: none;
   white-space: nowrap;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
@@ -5924,6 +5935,8 @@ textarea.form-control-lg {
 
 .carousel-item {
   position: relative;
+  height: 100vh;
+  min-height: 500px;
   display: none;
   float: left;
   width: 100%;
@@ -5932,6 +5945,24 @@ textarea.form-control-lg {
           backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
 }
+.carousel-item img {
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Ensures the image covers the container without stretching */
+}
+.carousel-caption h5 {
+  font-size: 1.5rem; /* Adjust font size as needed */
+}
+
+.carousel-caption p {
+  font-size: 1rem; /* Adjust font size as needed */
+}
+
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
     transition: none;
@@ -6095,6 +6126,7 @@ textarea.form-control-lg {
   padding-bottom: 1.25rem;
   color: #fff;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .carousel-dark .carousel-control-prev-icon,
@@ -8249,7 +8281,7 @@ textarea.form-control-lg {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .text-reset {
@@ -11001,7 +11033,7 @@ body {
   outline: none;
 }
 #mainNav .navbar-brand {
-  color: #fff;
+  color: #000;
   font-weight: bold;
   font-size: 1.5rem;
   padding: 0.9rem 0;
@@ -11080,12 +11112,13 @@ body {
   min-height: 35rem;
   padding: 15rem 0;
   background-image: 
-              url("../assets/images/gallery-event3.jpg");
+              url("../assets/images/wedding.jpg");
   color: white;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  
 }
 .masthead h1, .masthead .h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11096,6 +11129,7 @@ body {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
+          
 }
 .masthead h2, .masthead .h2 {
   max-width: 20rem;
@@ -11127,7 +11161,7 @@ body {
   padding-top: 10rem;
   padding-bottom: 10rem;
   color: #212529;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 255, 255, 0.8) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: linear-gradient(to bottom, #000 0%, rgb(80, 200, 120, 0.8) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
   margin-bottom: 2rem;
@@ -11295,4 +11329,11 @@ body {
   .portfolio-item .item {
     width: 100%;
   }
+}
+.emerald-satin-green {
+  background: linear-gradient(145deg, #50C878, #1D5E32); /* Satin effect */
+  padding: 10px 0;
+  background-color: rgba(46, 139, 87, 0.6); /* Emerald satin green with transparency */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  opacity: 0.5;
 }
