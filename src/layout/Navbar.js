@@ -6,7 +6,7 @@ export default function Navbar() {
     <div className="container px-4 px-lg-5">
       <a className="navbar-brand" text-black href="#page-top">
       <img 
-      src='assets/images/logo.png'
+      src='assets/layout/images/logo.png'
       alt="Logo" 
       className="navbar-logo"/>
         PATRICK EVENTS & DECOR

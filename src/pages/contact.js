@@ -1,6 +1,9 @@
 // pages/estimate.js or pages/contact.js
 
 import ContactForm from '../components/ContactForm';
+import React from "react"
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default function EstimatePage() {
   return (
